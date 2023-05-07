@@ -887,7 +887,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .testimonials .section-header {
@@ -1144,6 +1144,10 @@ section {
   padding: 0;
 }
 
+.portfolio-info{
+  display: none;
+}
+
 /*--------------------------------------------------------------
 # events
 --------------------------------------------------------------*/
@@ -1165,6 +1169,7 @@ section {
 }
 
 .events .member .social {
+  display: none;
   position: absolute;
   left: 0;
   bottom: 30px;
@@ -1536,6 +1541,7 @@ section {
     transform: rotate(360deg);
   }
 }
+
 
 /*--------------------------------------------------------------
 # Footer
